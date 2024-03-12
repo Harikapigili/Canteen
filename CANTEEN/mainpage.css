@@ -1,0 +1,35 @@
+body{
+    height:100vh;
+    background-image: url("https://img.freepik.com/free-photo/grilled-beef-burger-with-fries-cheese-tomato-generative-ai_188544-8466.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width:35vw;
+    height:35vh;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+    padding :10px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:45px;
+}
+button{
+    padding: 13px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: darkolivegreen;
+    color: white;
+    border-width: 0px;
+    margin-top: 30px;
+    margin-right: s15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    background-color: aqua;
+}
